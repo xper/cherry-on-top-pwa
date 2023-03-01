@@ -1,6 +1,8 @@
 {
-  "name": "nextjs-with-typescript",
-  "version": "5.0.0",
+  "name": "cherry-on-top-pwa",
+  "repository": "https://github.com/xper/cherry-on-top-pwa.git",
+  "author": "Xper <xper21@gmail.com>",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -20,7 +22,7 @@
     "@emotion/server": "11.10.0",
     "@emotion/styled": "11.10.4",
     "@lingui/react": "^3.14.0",
-    "@mui/icons-material": "5.10.3",
+    "@mui/icons-material": "5.11.11",
     "@mui/lab": "5.0.0-alpha.104",
     "@mui/material": "5.10.10",
     "@projectfunction/async-busboy": "^1.0.4",
