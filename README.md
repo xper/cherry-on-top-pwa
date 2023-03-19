@@ -73,6 +73,9 @@ Note: `NEXT_PUBLIC_` vars are compiled at build time! So if you want to deploy t
 - Docker image for super easy start
 - Vercel clone button
 
+```bash
+$ yarn add -D vercel
+```
 ## i18n
 
 We use NextJS's built-in

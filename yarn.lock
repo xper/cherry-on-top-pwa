@@ -899,6 +899,13 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
+"@babel/runtime@^7.21.0":
+  version "7.21.0"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.21.0.tgz#5b55c9d394e5fcf304909a8b00c07dc217b56673"
+  integrity sha512-xwII0//EObnq89Ji5AKYQaRYiW/nZ3llSv29d49IuxPhKbtJoLP+9QUUZ4nVragQVtaVGeZrpB+ZtG/Pdy/POw==
+  dependencies:
+    regenerator-runtime "^0.13.11"
+
 "@babel/template@^7.18.10", "@babel/template@^7.18.6":
   version "7.18.10"
   resolved "https://registry.yarnpkg.com/@babel/template/-/template-7.18.10.tgz#6f9134835970d1dbf0835c0d100c9f38de0c5e71"
@@ -1308,12 +1315,12 @@
   resolved "https://registry.yarnpkg.com/@mui/core-downloads-tracker/-/core-downloads-tracker-5.10.10.tgz#a3e5d2f6e5146e9a85d48824c386a31be1746ba3"
   integrity sha512-aDuE2PNEh+hAndxEWlZgq7uiFPZKJtnkPDX7v6kSCrMXA32ZaQ6rZi5olmC7DUHt/BaOSxb7N/im/ss0XBkDhA==
 
-"@mui/icons-material@5.10.3":
-  version "5.10.3"
-  resolved "https://registry.yarnpkg.com/@mui/icons-material/-/icons-material-5.10.3.tgz#33bd1d973c4727ab55d02928fc8973b7f16fff55"
-  integrity sha512-o0kbUlsWCBtCE0wP33cGKbyryCh7kpm2EECYMPDmWrLhbA+HUODXIdhiTFS26szp2xXo9HY1lEx0ufeJ+tddYw==
+"@mui/icons-material@^5.11.11":
+  version "5.11.11"
+  resolved "https://registry.yarnpkg.com/@mui/icons-material/-/icons-material-5.11.11.tgz#d4e01bd405b0dac779f5e060586277f91f3acb6e"
+  integrity sha512-Eell3ADmQVE8HOpt/LZ3zIma8JSvPh3XgnhwZLT0k5HRqZcd6F/QDHc7xsWtgz09t+UEFvOYJXjtrwKmLdwwpw==
   dependencies:
-    "@babel/runtime" "^7.18.9"
+    "@babel/runtime" "^7.21.0"
 
 "@mui/lab@5.0.0-alpha.104":
   version "5.0.0-alpha.104"
@@ -3447,10 +3454,10 @@ gongo-client-react@0.2.1:
   resolved "https://registry.yarnpkg.com/gongo-client-react/-/gongo-client-react-0.2.1.tgz#d5160fa579a38ecc6c49c3a66902887f6323f0bc"
   integrity sha512-1vdrM5oMEg0rM/aSnf446Xxfs32O45N1fEjaHXNAYBqpXzHu25pS/FourKi7TwmauC1sdhiUJSrPGx/4B1otbw==
 
-gongo-client@2.5.1:
-  version "2.5.1"
-  resolved "https://registry.yarnpkg.com/gongo-client/-/gongo-client-2.5.1.tgz#605c6f78e363ba274084e4c51f2ea060ba8fe4d4"
-  integrity sha512-VS0lL6xevsg1869glw6BdpcwUr9qgNjNFxFwPON+M9mOFqDx0XSGJymRn+jbeOZ+Y7Uvm4jPfahJsanupdOd+w==
+gongo-client@2.5.2:
+  version "2.5.2"
+  resolved "https://registry.yarnpkg.com/gongo-client/-/gongo-client-2.5.2.tgz#8b1250d1cb1919a274ba46c5366c9ab70e8b51fd"
+  integrity sha512-T3RtoQtqZz+24dEIJea3NtkMoN9aj47tSmDKPmuG2ari2GkFKOb8O4Ek2mNUYJfWnUno3V2dhFO3giBA/3xxBw==
   dependencies:
     arson "^0.2.6"
     bson-objectid "^2.0.3"
@@ -5051,6 +5058,11 @@ regenerate@^1.4.2:
   version "1.4.2"
   resolved "https://registry.yarnpkg.com/regenerate/-/regenerate-1.4.2.tgz#b9346d8827e8f5a32f7ba29637d398b69014848a"
   integrity sha512-zrceR/XhGYU/d/opr2EKO7aRHUeiBI8qjtfHqADTwZd6Szfy16la6kqD0MIUs5z5hx6AaKa+PixpPrR289+I0A==
+
+regenerator-runtime@^0.13.11:
+  version "0.13.11"
+  resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.13.11.tgz#f6dca3e7ceec20590d07ada785636a90cdca17f9"
+  integrity sha512-kY1AZVr2Ra+t+piVaJ4gxaFaReZVH40AKNo7UCX6W+dEwBo/2oZJzqfuN1qLq1oL45o56cPaTXELwrTh8Fpggg==
 
 regenerator-runtime@^0.13.4:
   version "0.13.9"
